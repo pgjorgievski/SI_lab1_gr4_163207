@@ -1,3 +1,17 @@
+class Canvas{
+	public List<Points> points;
+
+
+	public void addPoints(){
+	points.add(1);
+	}
+
+	public void removePoints(){
+	points.remove(1);
+	}
+
+}
+
 class Point {
 	String id
 	double x,y;
@@ -59,3 +73,4 @@ class Point {
 
 
 }
+
